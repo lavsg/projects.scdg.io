@@ -1,39 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Core Group Projects</title>
+  <title>SCDG Projects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+ html,body{height:100%;}
+.carousel,.item,.active{height:100%;background: #67BCDB}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:80%;background-position:center;background-size:cover;}
+.carousel-control {
+    width: 5%    
+}
+.contentpad10 {
+    padding-left:10%;
+    padding-right:10%
+}
+  </style>
+
 </head>
 <body>
 
-<div class="container">
-  <h2>Projects/Tasks 2018</h2>
-  <div class="list-group">
-    <a href="#" class="list-group-item disabled">
-      <h4 class="list-group-item-heading ">Uneven Duals (Closed)</h4>
-      <span class="badge">customer intimacy</span><span class="badge">sustaining innovation</span>
-      <h3/></h3>
+<div class="container fill">
+  <h3>Projects/Tasks 2018</h3>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">      
+            <div class="container contentpad10">
+            <div class="jumbotron" style="background:transparent">
+                    <h2>SSP Fluids Reform</h2>      
+                    <h4><p>Fluids reform aim at generating accurate fluid properties with improved grids. Compared to the old method several imrpovements are possible</p></h4>
+                    <span class="badge">strengthen foundation</span>
+                    <span class="badge">strategic innovation</span>
+           </div>
+            </div>
+      </div>
+                   
+
+      <div class="item">        
+            <div class="container contentpad10">
+                    <div class="jumbotron" style="background:transparent">
+                            <h2>Refernce Test Analysis</h2>      
+                            <h4><p>Fluids reform aim at generating accurate fluid properties with improved grids. Compared to the old method several imrpovements are possible</p></h4>
+                            <span class="badge">strengthen foundation</span>
+                            <span class="badge">strategic innovation</span>
+                   </div>
+                    </div>
+      </div>    
+
+      <div class="item">        
+            <div class="container contentpad10">
+                    <div class="jumbotron" style="background:transparent">
+                            <h2>Uneven Duals</h2>      
+                            <h4><p>Fluids reform aim at generating accurate fluid properties with improved grids. Compared to the old method several imrpovements are possible</p></h4>
+                            <span class="badge">strengthen foundation</span>
+                            <span class="badge">strategic innovation</span>
+                   </div>
+                    </div>
+          </div>
+       </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span style="color:black"><i class="glyphicon glyphicon-chevron-left"></i></span>
+        
+      <span class="sr-only">Previous</span>
     </a>
-    <a href="#" class="list-group-item disabled">
-      <h4 class="list-group-item-heading ">Reference Test Analysis (Closed)</h4>
-      <span class="badge">strengthen foundation</span>
-      <h3/></h3>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span style="color:black"><i class="glyphicon glyphicon-chevron-right"></i></span>      
+      <span class="sr-only">Next</span>
     </a>
-    <a href="#" class="list-group-item active">
-      <h4 class="list-group-item-heading">SSP Fluids Reform</h4>
-      <span class="badge">strengthen foundation</span>
-      <h3/></h3>
-    </a>
-    <a href="#" class="list-group-item">
-      <h4 class="list-group-item-heading ">Merge Single Phase/Two Stack windows</h4>
-      <span class="badge">customer intimacy</span><span class="badge">sustaining innovation</span>
-      <h3/></h3>
-    </a>
-    
   </div>
 </div>
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>SCDG Projects</title>
   <meta charset="utf-8">
@@ -7,103 +8,143 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+
   <style>
- html,body{height:100%;}
-.carousel,.item,.active{height:100%;background: white}
-.carousel-inner{height:100%;}
-.fill{width:100%;height:80%;background-position:center;background-size:cover;}
-.carousel-control {
-    width: 0%    
-}
-.contentpad10 {
-    padding-left:10%;
-    padding-right:10%
-}
-.carousel-indicators li {
-  background-color:black;
-}
+    html,
+    body {
+      height: 100%;
+    }
 
-.carousel-indicators .active {
-  background-color: lightblue;
-}
+    .carousel,
+    .item,
+    .active {
+      height: 100%;
+      background: white
+    }
 
+    .carousel-inner {
+      height: 100%;
+    }
+
+    .fill {
+      width: 100%;
+      height: 80%;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .carousel-control {
+      width: 0%
+    }
+
+    .contentpad10 {
+      padding-left: 10%;
+      padding-right: 10%
+    }
+
+    .carousel-indicators li {
+      background-color: black;
+    }
+
+    .carousel-indicators .active {
+      background-color: lightblue;
+    }
   </style>
 
 </head>
+
 <body>
 
-<div class="container fill">  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
-    <!-- Indicators -->
-    <ol class="carousel-indicators" >
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">      
-            <div class="container contentpad10">
+  <div class="container fill">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container contentpad10">
             <div class="jumbotron" style="background:transparent">
-                    <img src="sspfluidsreform.ico" style='vertical-align:middle; margin-right:10px' width="32" height="32"/><h3 style='display:inline; vertical-align:middle; margin-bottom:5px'>Fluids Reform</h3> 
-                    <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" 
-                     aria-valuemax="100" style="width:70%">70%</div></div>  
-                     <h4><p>Phase 1: Currently working on ssp integration/pending UI work. Aiming march release for ssp. </p></h4>
-                    <span class="badge">strengthen foundation</span>
-                    <span class="badge">strategic innovation</span>
-           </div>
-           </div>
-      </div>                  
-
-      <div class="item">        
-            <div class="container contentpad10">
-                    <div class="jumbotron" style="background:transparent">
-
-                            <img src="referencetest.png" style='vertical-align:middle; margin-right:10px' width="32" height="32"/><h3 style='display:inline; vertical-align:middle; margin-bottom:5px'>Reference Test Tool</h3>                             
-                            <div class="progress">
-                             <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" 
-                             aria-valuemax="100" style="width:100%">100%</div></div>  
-                             <h4><p>ver 7.0.0.13 relased. Comments handling added to reference tests. Additional plot parameters are added and bugs fixed. </p></h4>
-                            <span class="badge">strengthen foundation</span>
-                            <span class="badge">continious improvement</span>
-                            
-                   </div>
-                    </div>
-      </div>    
-
-      <div class="item">        
-            <div class="container contentpad10">
-
-                    <div class="jumbotron" style="background:transparent">
-                            
-                     <img src="unevenduals.ico" style='vertical-align:middle; margin-right:10px' width="32" height="32"/><h3 style='display:inline; vertical-align:middle; margin-bottom:5px'>Uneven Duals</h3>                             
-                     <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" 
-                     aria-valuemax="100" style="width:100%">100%</div></div>  
-                     <h4><p>Internal release made. Public release planned for Feb last week. </p></h4>
-                     <span class="badge">customer intimacy</span>
-                     <span class="badge">strengthen foundation</span>
-                     </div>
-                   
+              <div style="margin-bottom:10px">
+                <img src="sspfluidsreform.ico" style='vertical-align:middle; margin-right:10px' width="32" height="32" />
+                <h3 style='display:inline; vertical-align:middle'>Fluids Reform</h3>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%</div>
+              </div>
+              <h4>
+                <p>Phase 1: Currently working on ssp integration/pending UI work. Aiming march release for ssp. </p>
+              </h4>
+              <span class="badge">strengthen foundation</span>
+              <span class="badge">strategic innovation</span>
             </div>
-       </div>
-      
-    </div>
+          </div>
+        </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span style="color:black"><i class="glyphicon glyphicon-chevron-left"></i></span>
-        
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span style="color:black"><i class="glyphicon glyphicon-chevron-right"></i></span>      
-      <span class="sr-only">Next</span>
-    </a>
+        <div class="item">
+          <div class="container contentpad10">
+            <div class="jumbotron" style="background:transparent">
+
+              <div style="margin-bottom:10px">
+                <img src="referencetest.png" style='vertical-align:middle; margin-right:10px' width="32" height="32" />
+                <h3 style='display:inline; vertical-align:middle'>Reference Test Tool</h3>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+              </div>
+              <h4>
+                <p>ver 7.0.0.13 relased. Comments handling added to reference tests. Additional plot parameters are added and
+                  bugs fixed. </p>
+              </h4>
+              <span class="badge">strengthen foundation</span>
+              <span class="badge">continious improvement</span>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container contentpad10">
+
+            <div class="jumbotron" style="background:transparent">
+              <div style="margin-bottom:10px">
+                <img src="unevenduals.ico" style='vertical-align:middle; margin-right:10px' width="32" height="32" />
+                <h3 style='display:inline; vertical-align:middle'>Uneven Duals/h3> </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+              </div>
+              <h4>
+                <p>Internal release made. Public release planned for Feb last week. </p>
+              </h4>
+              <span class="badge">customer intimacy</span>
+              <span class="badge">strengthen foundation</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span style="color:black">
+          <i class="glyphicon glyphicon-chevron-left"></i>
+        </span>
+
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span style="color:black">
+          <i class="glyphicon glyphicon-chevron-right"></i>
+        </span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
-</div>
 
 </body>
+
 </html>
